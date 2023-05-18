@@ -18,9 +18,9 @@ const Header = (props) => {
         <li>
           <a
             href="#"
-            onClick={() => props.handlePageChange("AboutMe")}
+            onClick={() => props.handlePageChange("About")}
             className={
-              props.page === "AboutMe" ? "border-b-2 border-#E2E8F0" : ""
+              props.page === "About" ? "border-b-2 border-#E2E8F0" : ""
             }
           >
             About Me
@@ -30,12 +30,12 @@ const Header = (props) => {
         <li>
           <a
             href="#"
-            onClick={() => props.handlePageChange("Portfolio")}
+            onClick={() => props.handlePageChange("Projects")}
             className={
-              props.page === "Portfolio" ? "border-b-2 border-#E2E8F0" : ""
+              props.page === "Projects" ? "border-b-2 border-#E2E8F0" : ""
             }
           >
-            Portfolio
+            Projects
           </a>
         </li>
 
@@ -79,7 +79,7 @@ const Header = (props) => {
         onClick={() => setMenu(false)}
       >
         <li className="py-6 text-4xl">
-          <a href="#" onClick={() => props.handlePageChange("AboutMe")}>
+          <a href="#" onClick={() => props.handlePageChange("About")}>
             About Me
           </a>
         </li>
@@ -89,8 +89,8 @@ const Header = (props) => {
           </a>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#" onClick={() => props.handlePageChange("Portfolio")}>
-            Portfolio
+          <a href="#" onClick={() => props.handlePageChange("Projects")}>
+            Projects
           </a>
         </li>
         <li className="py-6 text-4xl">
