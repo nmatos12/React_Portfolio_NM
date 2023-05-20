@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
+import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 
 
@@ -17,8 +17,8 @@ function App() {
     if (page === "Projects") {
       return <Projects />;
     }
-    if (page === "Resume") {
-      return <Resume />;
+    if (page === "Skills") {
+      return <Skills />;
     }
     if (page === "Contact") {
       return <Contact />;

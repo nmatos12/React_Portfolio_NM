@@ -1,54 +1,38 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Fido Facts",
+    subtitle: "HTML, CSS, Javascript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Fido facts is the leading site to get information on dog breeds",
+    image: "./project1.png",
+    link: "https://scelsic2.github.io/fido-facts/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Calculator App",
+    subtitle: "JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Simple JavaScript calculator application",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Online Shopping",
+    subtitle: "HTML, JavaScript, CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Online shopping site",
+    image: "./project5.pngf",
+    link: "",
   },
   {
-    title: "Epic Todo App",
+    title: "Pastel Puzzles",
     subtitle: "React Hooks",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Pastel Puzzels",
+    image: "./project3.png",
+    link: "",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
 
 export const skills = [
   "JavaScript",
@@ -56,5 +40,4 @@ export const skills = [
   "Next.js",
   "Node",
   "GraphQL",
-  "Material UI",
 ];

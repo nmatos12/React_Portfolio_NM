@@ -9,7 +9,7 @@ const Header = (props) => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-900 text-gray-300">
       <a href="/">
         <div className="text-4xl font-extrabold font-style: italic">
-          Megan Mathis
+          Natalie Matos
         </div>
       </a>
       {/* nav menu */}

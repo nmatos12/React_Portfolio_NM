@@ -11,7 +11,7 @@ const Footer = () => {
         <li className="w-[80px] h-[60-px] flex items-center">
           <a
             className="flex items-center w-full text-gray-300"
-            href="https://www.linkedin.com/in/megan-mcdonough-mathis/"
+            href="https://www.linkedin.com/in/natalie_matos/"
             target="_blank"
           >
             <FaLinkedin size={30} />
@@ -21,17 +21,17 @@ const Footer = () => {
         <li className="w-[80px] h-[60-px] flex items-center">
           <a
             className="flex items-center w-full text-gray-300"
-            href="https://github.com/MegMathis"
+            href="https://github.com/nmatos12"
             target="_blank"
           >
-            <FaGithub size={30} alt="LinkedIn" />
+            <FaGithub size={30} alt="GitHub" />
           </a>
         </li>
 
         <li className="flex items-center w-full text-gray-300">
           <a
             className="flex items-center w-full text-gray-300"
-            href="https://www.instagram.com/megz2550/"
+            href="https://www.instagram.com/natalie_matos/"
             target="_blank"
           >
             <FaInstagram size={30} />
