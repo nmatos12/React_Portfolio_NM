@@ -32,10 +32,7 @@ JavaScript, React, Markdown
 
 Links below provide a functionality of webpage.
 
-[Heroku Link]()
-
-![]()
-
+[Heroku Link](https://git.heroku.com/react-portfolio-nm.git)
 
 ## Credits
 
